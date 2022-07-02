@@ -1,0 +1,5 @@
+﻿  Chap3.cpp
+  CMyString.cpp
+  stdafx.cpp
+MSVCRT.lib(exe_main.obj) : error LNK2001: 확인할 수 없는 외부 기호 _main
+C:\Users\최현산\Documents\CppStudy\CppPracticeProblem\Release\Chap3.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

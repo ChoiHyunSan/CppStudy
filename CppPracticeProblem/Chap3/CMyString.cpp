@@ -31,7 +31,7 @@ int CMyString::SetString(const char* pszParam)
 		return 0;
 	}
 	
-	strcpy(m_pszData, pszParam);
+	strcpy_s(m_pszData, nLength+1, pszParam);
 
 	return nLength;
 
